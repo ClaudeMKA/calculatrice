@@ -1,0 +1,48 @@
+.grand_bloc{
+    background-color: #DCDCDC;
+    max-width: 259px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.grand_bloc .affichage{
+    background-color: white;
+    width: 95%;
+    overflow: hidden; /* ou overflow: auto; */
+    height: 2.5rem;
+
+}
+.entete{
+    text-align: -webkit-center;
+    padding: 1rem;
+}
+.bloc_bas{
+    text-align: -webkit-center;
+}
+.bloc_button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 190px;
+}
+button{
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.egale{
+    width: 80%;
+    margin-top: 1rem;
+}
+.btn{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+.numero_affichage{
+    text-align: end;
+    padding: 0.1rem;
+}
